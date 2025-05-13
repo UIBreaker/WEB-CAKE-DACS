@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Itim", cursive;
+}
+
+/* body {
+  width: 1600px;
+} */
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  white-space: nowrap;
+  padding: 15px 15px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 55px;
+}
+
+nav ul li:first-child {
+  margin-right: 95px;
+}
+
+nav ul li a {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+/* nav ul li a:hover {
+  text-decoration: underline;
+} */
+
+/* nav ul li a:first-child {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+} */
+
+.cartVSaccount {
+  display: flex;
+  align-items: center;
+}
+
+.img-main {
+  object-fit: cover;
+  width: 100%;
+  top: 179px;
+}
+
+.Cake-row {
+}
+
+.Cake-list {
+  display: flex;
+  margin: 65px 90px;
+  gap: 122px;
+}
+
+.img-cake-item {
+  border-radius: 25px;
+  border: 7px solid #f5daac;
+}
+
+.Cake-item {
+}
+
+.titleSC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 119px;
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Title-main {
+  margin: 0 30px;
+  white-space: nowrap;
+}
+
+.Rectangle {
+  width: 600px;
+  height: 11px;
+  top: 1390px;
+  left: 30px;
+  border-radius: 25px;
+  background-color: #f5daac;
+}
+
+.cake-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-info .titleCI {
+  margin-top: 65px;
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.cake-info .Price {
+  margin-top: 10px;
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main-about,
+.footer-BG {
+  background-image: url(./img/footer-cake.jpg);
+  height: 400px;
+  top: 4335px;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 92px 138px;
+}
+
+.footer-ul li a {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.main-about {
+  margin-bottom: 900px;
+  padding-bottom: 900px;
+  overflow: hidden;
+}
+
+.main-about h2 {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* text-decoration: underline; */
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.main-about p {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 1300px;
+  height: 492;
+  top: 391px;
+  left: 150px;
+  color: #fff;
+  margin: 0 170px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-animation.center::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.center:hover::after {
+  transform-origin: bottom center;
+}
