@@ -2,7 +2,6 @@ function changeContent(section) {
   const mainContent = document.getElementById("main-content");
   if (section === "home") {
     mainContent.innerHTML = `
-        <main id="main-content">
       <img src="./assets/img/BanBanhMain.png" alt="" class="img-main" />
       <div class="Selling-cakes">
         <div class="titleSC">
@@ -12,41 +11,44 @@ function changeContent(section) {
         </div>
         <div class="Cake-row">
           <div class="Cake-list">
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (1).png"
+            >
               <img
                 src="./assets/img/cake1 (1).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3
-                  href="#add_cart"
-                  onclick="changeContent('add_cart')"
-                  class="titleCI"
-                >
-                  Bánh kem A
-                </h3>
+                <h3 class="titleCI">Bánh kem A</h3>
                 <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem trắng"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (2).png"
+            >
               <img
                 src="./assets/img/cake1 (2).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <a
-                  href="#add_cart"
-                  onclick="changeContent('add_cart')"
-                  class="titleCI"
-                >
-                  Bánh kem trắng
-                </a>
+                <h3 class="titleCI">Bánh kem Trắng</h3>
                 <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem dâu"
+              data-price="200.000đ"
+              data-img="./assets/img/cake1 (3).png"
+            >
               <img
                 src="./assets/img/cake1 (3).png"
                 alt=""
@@ -59,37 +61,52 @@ function changeContent(section) {
             </div>
           </div>
           <div class="Cake-list">
-            <div class="Cake-item">
-              <img
-                src="./assets/img/cake1 (4).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem cà rốt</h3>
-                <p class="Price">Giá: 160.000đ</p>
-              </div>
-            </div>
-            <div class="Cake-item">
-              <img
-                src="./assets/img/cake1 (5).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem socola</h3>
-                <p class="Price">Giá: 180.000đ</p>
-              </div>
-            </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem Cà rốt"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (6).png"
+            >
               <img
                 src="./assets/img/cake1 (6).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem trắng phủ socola</h3>
-                <p class="Price">Giá: 200.000đ</p>
+                <h3 class="titleCI">Bánh kem Cà rốt</h3>
+                <p class="Price">Giá: 150.000đ</p>
+              </div>
+            </div>
+            <div
+              class="Cake-item"
+              data-title="Bánh kem Socola"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (5).png"
+            >
+              <img
+                src="./assets/img/cake1 (5).png"
+                alt=""
+                class="img-cake-item"
+              />
+              <div class="cake-info">
+                <h3 class="titleCI">Bánh kem Socola</h3>
+                <p class="Price">Giá: 150.000đ</p>
+              </div>
+            </div>
+            <div
+              class="Cake-item"
+              data-title="Bánh kem Trắng phủ Socola"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (4).png"
+            >
+              <img
+                src="./assets/img/cake1 (4).png"
+                alt=""
+                class="img-cake-item"
+              />
+              <div class="cake-info">
+                <h3 class="titleCI">Bánh kem Trắng phủ Socola</h3>
+                <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
           </div>
@@ -103,9 +120,14 @@ function changeContent(section) {
         </div>
         <div class="Cake-row">
           <div class="Cake-list">
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (7).png"
+            >
               <img
-                src="./assets/img/cake1 (1).png"
+                src="./assets/img/cake1 (7).png"
                 alt=""
                 class="img-cake-item"
               />
@@ -114,68 +136,91 @@ function changeContent(section) {
                 <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (8).png"
+            >
               <img
-                src="./assets/img/cake1 (2).png"
+                src="./assets/img/cake1 (8).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem trắng</h3>
+                <h3 class="titleCI">Bánh kem A</h3>
                 <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (9).png"
+            >
               <img
-                src="./assets/img/cake1 (3).png"
+                src="./assets/img/cake1 (9).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem dâu</h3>
-                <p class="Price">Giá: 200.000đ</p>
+                <h3 class="titleCI">Bánh kem A</h3>
+                <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
           </div>
           <div class="Cake-list">
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (10).png"
+            >
               <img
-                src="./assets/img/cake1 (4).png"
+                src="./assets/img/cake1 (10).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem cà rốt</h3>
-                <p class="Price">Giá: 160.000đ</p>
+                <h3 class="titleCI">Bánh kem A</h3>
+                <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (11).png"
+            >
               <img
-                src="./assets/img/cake1 (5).png"
+                src="./assets/img/cake1 (11).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem socola</h3>
-                <p class="Price">Giá: 180.000đ</p>
+                <h3 class="titleCI">Bánh kem A</h3>
+                <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
-            <div class="Cake-item">
+            <div
+              class="Cake-item"
+              data-title="Bánh kem A"
+              data-price="150.000đ"
+              data-img="./assets/img/cake1 (11).png"
+            >
               <img
-                src="./assets/img/cake1 (6).png"
+                src="./assets/img/cake1 (11).png"
                 alt=""
                 class="img-cake-item"
               />
               <div class="cake-info">
-                <h3 class="titleCI">Bánh kem trắng phủ socola</h3>
-                <p class="Price">Giá: 200.000đ</p>
+                <h3 class="titleCI">Bánh kem A</h3>
+                <p class="Price">Giá: 150.000đ</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-                    `;
+      </div>      `;
     document.body.style.overflow = "auto";
   } else if (section === "products") {
     mainContent.innerHTML = `
@@ -244,20 +289,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mainContent.innerHTML = `
       <div class="add-cart-container">
-          <div class="product-image">
-              <img src="${imgSrc}" alt="${title}" class="img-product" />
+        <div class="product-image">
+          <img src="${imgSrc}" alt="${title}" class="img-product" />
+        </div>
+        <div class="product-details">
+          <h3 style="margin-bottom: 10px" class="product-title">Tên: ${title}</h3>
+          <p style="margin-bottom: 10px" class="product-price">Giá: ${price}</p>
+          <div class="quantity-container">
+            <label for="quantity">Số lượng:</label>
+            <button type="button" id="decrease-qty" style="margin: 0 5px;">-</button>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" style="width: 50px; text-align: center;">
+            <button type="button" id="increase-qty" style="margin: 0 5px;">+</button>
           </div>
-          <div class="product-details">
-              <h3 class="product-title">${title}</h3>
-              <p class="product-price">Giá: ${price}</p>
-              <div class="quantity-container">
-                  <label for="quantity">Số lượng:</label>
-                  <input type="number" id="quantity" name="quantity" min="1" value="1">
-              </div>
-              <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
-          </div>
+          <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+        </div>
       </div>
     `;
+
+    // Add event listeners for increase/decrease buttons
+    const quantityInput = document.getElementById("quantity");
+    document.getElementById("increase-qty").onclick = () => {
+      quantityInput.value = Number(quantityInput.value) + 1;
+    };
+    document.getElementById("decrease-qty").onclick = () => {
+      if (Number(quantityInput.value) > 1) {
+        quantityInput.value = Number(quantityInput.value) - 1;
+      }
+    };
 
     document.body.style.overflow = "auto";
     window.scrollTo(0, 0);
