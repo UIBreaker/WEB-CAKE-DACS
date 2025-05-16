@@ -75,6 +75,8 @@ nav ul li a {
 }
 
 .img-cake-item {
+  height: 413px;
+  width: 413px;
   border-radius: 25px;
   border: 7px solid #f5daac;
 }
@@ -124,6 +126,12 @@ nav ul li a {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+  color: #000000;
+}
+
+.cake-info .titleCI:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .cake-info .Price {
@@ -161,12 +169,12 @@ nav ul li a {
 }
 
 .main-about {
-  margin-bottom: 900px;
+  /* margin-bottom: 900px; */
   padding-bottom: 900px;
   overflow: hidden;
 }
 
-.main-about h2 {
+.GioiThiu-title {
   font-family: Itim;
   font-weight: 400;
   font-size: 128px;
@@ -181,7 +189,7 @@ nav ul li a {
   margin-top: 20px;
 }
 
-.main-about p {
+.GioiThiu-sub-title {
   font-family: Itim;
   font-weight: 400;
   font-size: 64px;
