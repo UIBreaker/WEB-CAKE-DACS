@@ -10,6 +10,10 @@ html {
   width: 1600px;
 } */
 
+.logoAnne {
+  margin-bottom: -10px;
+}
+
 a {
   text-decoration: none;
 }
@@ -23,7 +27,7 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  margin-left: 120px;
+  margin-left: 20px;
 }
 
 nav ul li {
@@ -54,6 +58,23 @@ nav ul li a {
   line-height: 100%;
   letter-spacing: 0%;
 } */
+
+.title {
+  font-family: Itim;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5daac;
+  padding: 43px 414px;
+}
 
 .cartVSaccount {
   display: flex;
