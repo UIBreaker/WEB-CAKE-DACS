@@ -23,6 +23,7 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
+  margin-left: 120px;
 }
 
 nav ul li {
@@ -65,9 +66,6 @@ nav ul li a {
   top: 179px;
 }
 
-.Cake-row {
-}
-
 .Cake-list {
   display: flex;
   margin: 65px 90px;
@@ -79,9 +77,6 @@ nav ul li a {
   width: 413px;
   border-radius: 25px;
   border: 7px solid #f5daac;
-}
-
-.Cake-item {
 }
 
 .titleSC {
