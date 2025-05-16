@@ -1,227 +1,9 @@
 function changeContent(section) {
   const mainContent = document.getElementById("main-content");
   if (section === "home") {
-    mainContent.innerHTML = `
-      <img src="./assets/img/BanBanhMain.png" alt="" class="img-main" />
-      <div class="Selling-cakes">
-        <div class="titleSC">
-          <div class="Rectangle"></div>
-          <h1 class="Title-main">Bánh Kem</h1>
-          <div class="Rectangle"></div>
-        </div>
-        <div class="Cake-row">
-          <div class="Cake-list">
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (1).png"
-            >
-              <img
-                src="./assets/img/cake1 (1).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem trắng"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (2).png"
-            >
-              <img
-                src="./assets/img/cake1 (2).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem Trắng</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem dâu"
-              data-price="200.000đ"
-              data-img="./assets/img/cake1 (3).png"
-            >
-              <img
-                src="./assets/img/cake1 (3).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem dâu</h3>
-                <p class="Price">Giá: 200.000đ</p>
-              </div>
-            </div>
-          </div>
-          <div class="Cake-list">
-            <div
-              class="Cake-item"
-              data-title="Bánh kem Cà rốt"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (6).png"
-            >
-              <img
-                src="./assets/img/cake1 (6).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem Cà rốt</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem Socola"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (5).png"
-            >
-              <img
-                src="./assets/img/cake1 (5).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem Socola</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem Trắng phủ Socola"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (4).png"
-            >
-              <img
-                src="./assets/img/cake1 (4).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem Trắng phủ Socola</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="Selling-cakes">
-        <div class="titleSC">
-          <div class="Rectangle"></div>
-          <h1 class="Title-main">Bánh ngọt</h1>
-          <div class="Rectangle"></div>
-        </div>
-        <div class="Cake-row">
-          <div class="Cake-list">
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (7).png"
-            >
-              <img
-                src="./assets/img/cake1 (7).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (8).png"
-            >
-              <img
-                src="./assets/img/cake1 (8).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (9).png"
-            >
-              <img
-                src="./assets/img/cake1 (9).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-          </div>
-          <div class="Cake-list">
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (10).png"
-            >
-              <img
-                src="./assets/img/cake1 (10).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (11).png"
-            >
-              <img
-                src="./assets/img/cake1 (11).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-            <div
-              class="Cake-item"
-              data-title="Bánh kem A"
-              data-price="150.000đ"
-              data-img="./assets/img/cake1 (11).png"
-            >
-              <img
-                src="./assets/img/cake1 (11).png"
-                alt=""
-                class="img-cake-item"
-              />
-              <div class="cake-info">
-                <h3 class="titleCI">Bánh kem A</h3>
-                <p class="Price">Giá: 150.000đ</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>      `;
-    document.body.style.overflow = "auto";
+    // Reload the page to reset everything when clicking Home
+    window.location.reload();
+    return;
   } else if (section === "products") {
     mainContent.innerHTML = `
                     <h2>Sản Phẩm</h2>
@@ -232,6 +14,68 @@ function changeContent(section) {
                     <h2>Khuyến Mãi</h2>
                     <p>Đừng bỏ lỡ các chương trình khuyến mãi hấp dẫn!</p>
                 `;
+  } else if (section === "GioHang") {
+    // Render cart items from localStorage
+    const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+
+    let cartItemsHtml = "";
+    if (cart.length === 0) {
+      cartItemsHtml = `<div class="cart-item">Giỏ hàng trống</div>`;
+    } else {
+      cartItemsHtml = cart
+        .map((item, idx) => {
+          // Parse unit price from item.price (e.g., "150.000đ" => 150000)
+          const unitPrice = Number(item.price.replace(/[^\d]/g, ""));
+          const totalPrice = unitPrice * item.quantity;
+          // Format total price with thousands separator and "đ"
+          const formattedTotalPrice = totalPrice.toLocaleString("vi-VN") + "đ";
+          return `
+      <div class="cart-item" data-idx="${idx}">
+        <img src="${item.imgSrc}" alt="${item.title}" style="width:60px;height:60px;object-fit:cover;margin-right:10px;">
+        <div>
+        <div><strong>${item.title}</strong></div>
+        <div>Giá: ${formattedTotalPrice} (${item.quantity} x ${item.price})</div>
+        </div>
+        <button class="delete-cart-item-btn" style="margin-left:20px; margin-top:16px">Xóa</button>
+      </div>
+      `;
+        })
+        .join("");
+    }
+
+    mainContent.innerHTML = `
+      <div class="cart-container">
+      <h1>GIỎ HÀNG CỦA BẠN</h1>
+      <div class="cart-items">
+        ${cartItemsHtml}
+      </div>
+      <div class="cart-actions">
+        <button id="edit-btn">Sửa</button>
+        <button id="buy-btn">Mua hàng</button>
+      </div>
+      </div>
+    `;
+
+    // Add event listeners for delete buttons
+    document.querySelectorAll(".delete-cart-item-btn").forEach((btn) => {
+      btn.onclick = function () {
+        const idx = this.closest(".cart-item").dataset.idx;
+        cart.splice(idx, 1);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        // Re-render the cart section
+        changeContent("GioHang");
+      };
+    });
+
+    const cartItemsContainer = document.querySelector(".cart-items");
+    if (cartItemsContainer && cart.length > 4) {
+      cartItemsContainer.style.maxHeight = "300px";
+      cartItemsContainer.style.overflowY = "auto";
+    }
+
+    document.body.style.overflow = "auto";
+    window.scrollTo(0, 0);
+    document.body.style.overflow = "hidden";
   } else if (section === "about") {
     mainContent.innerHTML = `
 <div class="main-about">
@@ -308,15 +152,106 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add event listeners for increase/decrease buttons
     const quantityInput = document.getElementById("quantity");
+    const priceElement = document.querySelector(".product-price");
+
+    // Helper to parse price string (e.g., "150.000đ" => 150000)
+    function parsePrice(priceStr) {
+      return Number(priceStr.replace(/[^\d]/g, ""));
+    }
+
+    // Helper to format price number to string with thousands separator and "đ"
+    function formatPrice(num) {
+      return num.toLocaleString("vi-VN") + "đ";
+    }
+
+    // Update price display based on quantity
+    function updateTotalPrice() {
+      const unitPrice = parsePrice(price);
+      const qty = Number(quantityInput.value);
+      const total = unitPrice * qty;
+      priceElement.textContent = "Giá: " + formatPrice(total);
+    }
+
     document.getElementById("increase-qty").onclick = () => {
       quantityInput.value = Number(quantityInput.value) + 1;
+      updateTotalPrice();
     };
     document.getElementById("decrease-qty").onclick = () => {
       if (Number(quantityInput.value) > 1) {
         quantityInput.value = Number(quantityInput.value) - 1;
+        updateTotalPrice();
       }
     };
 
+    // Update price on input change
+    quantityInput.oninput = updateTotalPrice;
+
+    // Initialize price on load
+    updateTotalPrice();
+
+    // Add to cart logic
+    document.querySelector(".add-to-cart-btn").onclick = () => {
+      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const qty = Number(quantityInput.value);
+
+      // Check if item already exists in cart
+      const existing = cart.find(
+        (item) =>
+          item.title === title && item.price === price && item.imgSrc === imgSrc
+      );
+      if (existing) {
+        existing.quantity += qty;
+      } else {
+        cart.push({ title, price, imgSrc, quantity: qty });
+      }
+      localStorage.setItem("cart", JSON.stringify(cart));
+
+      // Render cart page
+      renderCart();
+    };
+
+    document.body.style.overflow = "auto";
+    window.scrollTo(0, 0);
+    document.body.style.overflow = "hidden";
+  }
+
+  // Render cart items in cart page
+  function renderCart() {
+    const mainContent = document.getElementById("main-content");
+    const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+
+    let cartItemsHtml = "";
+    if (cart.length === 0) {
+      cartItemsHtml = `<div class="cart-item">Giỏ hàng trống</div>`;
+    } else {
+      cartItemsHtml = cart
+        .map(
+          (item) => `
+        <div class="cart-item">
+          <img src="${item.imgSrc}" alt="${item.title}" style="width:60px;height:60px;object-fit:cover;margin-right:10px;">
+          <div>
+            <div><strong>${item.title}</strong></div>
+            <div>Giá: ${item.price}</div>
+            <div>Số lượng: ${item.quantity}</div>
+          </div>
+        </div>
+      `
+        )
+        .join("");
+    }
+
+    mainContent.innerHTML = `
+      <div class="cart-container">
+        <h1>GIỎ HÀNG CỦA BẠN</h1>
+        <div class="cart-items">
+          ${cartItemsHtml}
+        </div>
+        <div class="cart-actions">
+          <button id="edit-btn">Sửa</button>
+          <button id="buy-btn">Mua hàng</button>
+        </div>
+      </div>
+    `;
     document.body.style.overflow = "auto";
     window.scrollTo(0, 0);
     document.body.style.overflow = "hidden";

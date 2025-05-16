@@ -300,3 +300,89 @@ nav ul li a {
   border-radius: 33px;
   border: 7px solid #f5daac;
 }
+
+.img-cart-hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  transition: box-shadow 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.img-cart-hover:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px) scale(1.04);
+}
+
+.cart-container {
+  background-color: #d0f0ff;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.cart-items {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* height: 400px; */
+}
+
+.cart-item {
+  position: relative;
+  margin: 50px 0;
+  height: 40px;
+  /* border-bottom: 2px solid #f0c060; */
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.cart-item::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 1660px;
+  border: 1px solid #f5daac;
+  background-color: #f5daac;
+  bottom: -30px;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+#edit-btn,
+#buy-btn {
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#edit-btn {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#buy-btn {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h1 {
+  font-size: 30px;
+}
